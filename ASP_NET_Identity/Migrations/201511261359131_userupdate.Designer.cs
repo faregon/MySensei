@@ -7,13 +7,13 @@ namespace ASP_NET_Identity.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.0-30225")]
-    public sealed partial class UserPropertiesFirstnameLastname : IMigrationMetadata
+    public sealed partial class userupdate : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(UserPropertiesFirstnameLastname));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(userupdate));
         
         string IMigrationMetadata.Id
         {
-            get { return "201510171414034_UserPropertiesFirstnameLastname"; }
+            get { return "201511261359131_userupdate"; }
         }
         
         string IMigrationMetadata.Source

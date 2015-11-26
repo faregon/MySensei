@@ -186,9 +186,9 @@
     <Compile Include="Infrastructure\AppIdentityDbContext.cs" />
     <Compile Include="Infrastructure\CustomPasswordValidator.cs" />
     <Compile Include="Infrastructure\IdentityHelpers.cs" />
-    <Compile Include="Migrations\201510171414034_UserPropertiesFirstnameLastname.cs" />
-    <Compile Include="Migrations\201510171414034_UserPropertiesFirstnameLastname.Designer.cs">
-      <DependentUpon>201510171414034_UserPropertiesFirstnameLastname.cs</DependentUpon>
+    <Compile Include="Migrations\201511261359131_userupdate.cs" />
+    <Compile Include="Migrations\201511261359131_userupdate.Designer.cs">
+      <DependentUpon>201511261359131_userupdate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppRole.cs" />
@@ -216,8 +216,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201510171414034_UserPropertiesFirstnameLastname.resx">
-      <DependentUpon>201510171414034_UserPropertiesFirstnameLastname.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201511261359131_userupdate.resx">
+      <DependentUpon>201511261359131_userupdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
