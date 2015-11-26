@@ -1,4 +1,4 @@
-namespace ASP_NET_Identity.Migrations
+namespace MySensei.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
@@ -7,14 +7,14 @@ namespace ASP_NET_Identity.Migrations
     {
         public override void Up()
         {
-            AddColumn("dbo.AspNetUsers", "FirstName", c => c.String());
-            AddColumn("dbo.AspNetUsers", "LastName", c => c.String());
+            AddColumn("dbo.AspNetUsers", "Firstname", c => c.String());
+            AddColumn("dbo.AspNetUsers", "Lastname", c => c.String());
         }
         
         public override void Down()
         {
-            DropColumn("dbo.AspNetUsers", "LastName");
-            DropColumn("dbo.AspNetUsers", "FirstName");
+            DropColumn("dbo.AspNetUsers", "Lastname");
+            DropColumn("dbo.AspNetUsers", "Firstname");
         }
     }
 }

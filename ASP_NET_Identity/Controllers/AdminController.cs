@@ -1,12 +1,12 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity.Owin;
-using ASP_NET_Identity.Infrastructure;
-using ASP_NET_Identity.Models;
+using MySensei.Infrastructure;
+using MySensei.Models;
 using Microsoft.AspNet.Identity;
 using System.Threading.Tasks;
 
-namespace ASP_NET_Identity.Controllers
+namespace MySensei.Controllers
 {
 
     [Authorize(Roles = "Administrators")]

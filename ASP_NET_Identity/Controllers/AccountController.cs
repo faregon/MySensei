@@ -1,14 +1,14 @@
 ﻿using System.Threading.Tasks;
 using System.Web.Mvc;
-using ASP_NET_Identity.Models;
+using MySensei.Models;
 using Microsoft.Owin.Security;
 using System.Security.Claims;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
-using ASP_NET_Identity.Infrastructure;
+using MySensei.Infrastructure;
 using System.Web;
 
-namespace ASP_NET_Identity.Controllers
+namespace MySensei.Controllers
 {
     [Authorize]
     public class AccountController : Controller

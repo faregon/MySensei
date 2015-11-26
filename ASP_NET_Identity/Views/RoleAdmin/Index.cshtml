@@ -1,11 +1,11 @@
-﻿@using ASP_NET_Identity.Models
-@using ASP_NET_Identity.Infrastructure
+﻿@using MySensei.Models
+@using MySensei.Infrastructure
 @model IEnumerable<AppRole>
 @{ ViewBag.Title = "Roles"; }
 <div class="panel panel-primary">
     <div class="panel-heading">Roles</div>
     <table class="table table-striped">
-        <tr><th>ID</th><th>Name</th><th>ASP_NET_Identity;</th><th></th></tr>
+        <tr><th>ID</th><th>Name</th><th>MySensei;</th><th></th></tr>
         @if (Model.Count() == 0)
         {
             <tr><td colspan="4" class="text-center">No Roles</td></tr>
@@ -20,7 +20,7 @@
                     <td>
                         @if (role.Users == null || role.Users.Count == 0)
                         {
-                            @: No ASP_NET_Identity; in Role
+                            @: No MySensei; in Role
 }
                         else
                         {

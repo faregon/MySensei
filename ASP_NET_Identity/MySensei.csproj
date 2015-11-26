@@ -167,7 +167,7 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\Shared\_ViewStart.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
@@ -186,28 +186,13 @@
     <Compile Include="Infrastructure\AppIdentityDbContext.cs" />
     <Compile Include="Infrastructure\CustomPasswordValidator.cs" />
     <Compile Include="Infrastructure\IdentityHelpers.cs" />
-    <Compile Include="Migrations\201511261359131_userupdate.cs" />
-    <Compile Include="Migrations\201511261359131_userupdate.Designer.cs">
-      <DependentUpon>201511261359131_userupdate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201511261303272_coursetable.cs" />
-    <Compile Include="Migrations\201511261303272_coursetable.Designer.cs">
-      <DependentUpon>201511261303272_coursetable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201511261331219_one-to-many-course-user-table.cs" />
-    <Compile Include="Migrations\201511261331219_one-to-many-course-user-table.Designer.cs">
-      <DependentUpon>201511261331219_one-to-many-course-user-table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201511261406432_AddUserProperties.cs" />
-    <Compile Include="Migrations\201511261406432_AddUserProperties.Designer.cs">
-      <DependentUpon>201511261406432_AddUserProperties.cs</DependentUpon>
+    <Compile Include="Migrations\201510171414034_UserPropertiesFirstnameLastname.cs" />
+    <Compile Include="Migrations\201510171414034_UserPropertiesFirstnameLastname.Designer.cs">
+      <DependentUpon>201510171414034_UserPropertiesFirstnameLastname.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppRole.cs" />
     <Compile Include="Models\AppUser.cs" />
-    <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\Course.cs" />
-    <Compile Include="Models\Instructor.cs" />
     <Compile Include="Models\UserViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -231,17 +216,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201511261359131_userupdate.resx">
-      <DependentUpon>201511261359131_userupdate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201511261303272_coursetable.resx">
-      <DependentUpon>201511261303272_coursetable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201511261331219_one-to-many-course-user-table.resx">
-      <DependentUpon>201511261331219_one-to-many-course-user-table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201511261406432_AddUserProperties.resx">
-      <DependentUpon>201511261406432_AddUserProperties.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201510171414034_UserPropertiesFirstnameLastname.resx">
+      <DependentUpon>201510171414034_UserPropertiesFirstnameLastname.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

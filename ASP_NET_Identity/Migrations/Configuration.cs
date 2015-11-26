@@ -1,9 +1,9 @@
 using System.Data.Entity.Migrations;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-using ASP_NET_Identity.Infrastructure;
-using ASP_NET_Identity.Models;
-namespace ASP_NET_Identity.Migrations
+using MySensei.Infrastructure;
+using MySensei.Models;
+namespace MySensei.Migrations
 {
     internal sealed class Configuration
     : DbMigrationsConfiguration<AppIdentityDbContext>
@@ -11,7 +11,7 @@ namespace ASP_NET_Identity.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "ASP_NET_Identity.Infrastructure.AppIdentityDbContext";
+            ContextKey = "MySensei.Infrastructure.AppIdentityDbContext";
         }
         protected override void Seed(AppIdentityDbContext context)
         {
