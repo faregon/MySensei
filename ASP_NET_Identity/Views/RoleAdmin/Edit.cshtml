@@ -1,4 +1,4 @@
-﻿@using ASP_NET_Identity.Models
+﻿@using MySensei.Models
 @model RoleEditModel
 @{ ViewBag.Title = "Edit Role";}
 @Html.ValidationSummary()
@@ -10,7 +10,7 @@
         <table class="table table-striped">
             @if (Model.NonMembers.Count() == 0)
             {
-                <tr><td colspan="2">All ASP_NET_Identity; Are Members</td></tr>
+                <tr><td colspan="2">All MySensei; Are Members</td></tr>
             }
             else
             {
@@ -32,7 +32,7 @@
         <table class="table table-striped">
             @if (Model.Members.Count() == 0)
             {
-                <tr><td colspan="2">No ASP_NET_Identity; Are Members</td></tr>
+                <tr><td colspan="2">No MySensei; Are Members</td></tr>
             }
             else
             {

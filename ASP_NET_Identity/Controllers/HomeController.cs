@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Web;
 using System.Security.Principal;
 using System.Threading.Tasks;
-using ASP_NET_Identity.Infrastructure;
+using MySensei.Infrastructure;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
-using ASP_NET_Identity.Models;
+using MySensei.Models;
 
-namespace ASP_NET_Identity.Controllers
+namespace MySensei.Controllers
 {
     public class HomeController : Controller
     {

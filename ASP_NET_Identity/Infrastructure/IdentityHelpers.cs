@@ -2,7 +2,7 @@
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity.Owin;
 
-namespace ASP_NET_Identity.Infrastructure
+namespace MySensei.Infrastructure
 {
     public static class IdentityHelpers
     {

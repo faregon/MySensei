@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace ASP_NET_Identity.Models
+namespace MySensei.Models
 {
     // Users
     public class CreateModel

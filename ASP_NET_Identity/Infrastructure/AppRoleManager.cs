@@ -3,8 +3,8 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
-using ASP_NET_Identity.Models;
-namespace ASP_NET_Identity.Infrastructure
+using MySensei.Models;
+namespace MySensei.Infrastructure
 {
     public class AppRoleManager : RoleManager<AppRole>, IDisposable
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace ASP_NET_Identity.Models
+namespace MySensei.Models
 {
     public class AppRole : IdentityRole
     {

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
-namespace ASP_NET_Identity.Infrastructure
+namespace MySensei.Infrastructure
 {
     public class CustomPasswordValidator : PasswordValidator
     {

@@ -2,9 +2,9 @@
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
-using ASP_NET_Identity.Infrastructure;
+using MySensei.Infrastructure;
 
-namespace ASP_NET_Identity
+namespace MySensei
 {
     public class IdentityConfig
     {

@@ -1,4 +1,4 @@
-namespace ASP_NET_Identity.Migrations
+namespace MySensei.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

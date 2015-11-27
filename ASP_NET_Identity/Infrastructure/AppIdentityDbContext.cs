@@ -1,10 +1,10 @@
 ﻿using System.Data.Entity;
 using Microsoft.AspNet.Identity.EntityFramework;
-using ASP_NET_Identity.Models;
+using MySensei.Models;
 using Microsoft.AspNet.Identity;
 using System.Collections;
 
-namespace ASP_NET_Identity.Infrastructure
+namespace MySensei.Infrastructure
 {
     public class AppIdentityDbContext : IdentityDbContext<AppUser>
     {
@@ -33,7 +33,8 @@ namespace ASP_NET_Identity.Infrastructure
             .HasForeignKey(s => s.AppUserID);
             // the all important base class call! Add this line to make your problems go away.
             base.OnModelCreating(modelBuilder);
-        }
+        }
+
 
     }
 

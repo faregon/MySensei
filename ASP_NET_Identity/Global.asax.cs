@@ -7,7 +7,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace ASP_NET_Identity
+namespace MySensei
 {
     public class Global : System.Web.HttpApplication
     {

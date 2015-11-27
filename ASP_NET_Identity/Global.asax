@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="ASP_NET_Identity.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="MySensei.Global" Language="C#" %>
